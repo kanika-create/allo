@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tables-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-wrapper {
+    width: 30%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
